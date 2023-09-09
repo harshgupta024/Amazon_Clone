@@ -159,32 +159,6 @@ option
 
 /* Account */
 
-/* .nav-account
-{
-    display: flex;
-    align-items: center;
-    width: 200px;
-}
-
-.nav-account > .account-icon
-{
-    display: flex;
-    align-items: center;
-    padding-right: 10px;
-    font-size: 30px;
-}
-
-.account-text > p
-{
-    font-weight: 700;
-}
-
-.account-text > p > span
-{
-    font-size: 0.8rem;
-} */
-
-
 span
 {
     font-size: 0.7rem;
@@ -323,13 +297,11 @@ span
 
 /* Footer */
 
-/* Apply styles to the footer */
 footer
 {
     margin-top: 15px;
 }
 
-/* Style for the first panel */
 .foot-panel1
 {
     background-color: #37475a;
@@ -341,18 +313,16 @@ footer
     font-size: 0.85rem;
 }
 
-/* Reset link styles */
 .foot-panel1 a
 {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Use the parent's color */
+    text-decoration: none;
+    color: inherit;
 }
 
-/* Add glowing effect on foot-panel1 hover */
 .foot-panel1:hover
 {
-    box-shadow: 0 0 20px #37475a; /* Adjust the color and spread as needed */
-    transition: box-shadow 0.3s ease-in-out; /* Add a smooth transition */
+    box-shadow: 0 0 20px #37475a;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
 
@@ -394,8 +364,6 @@ footer
 {
     text-decoration: underline;
 }
-
-
 
 /* Style for the third panel */
 .foot-panel3
@@ -440,7 +408,5 @@ footer
 .copyright {
     
     padding-top: 5px;
-    align-self: center; /* Center the copyright text horizontally */
+    align-self: center;
 }
-
-
